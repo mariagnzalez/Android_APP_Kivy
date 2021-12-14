@@ -33,9 +33,4 @@ for device in ble.bonded_devices:
     # device: https://developer.android.com/reference/android/bluetooth/BluetoothDevice
     print(type(device), device.getName(), "address:", device.getAddress())
 
-#Connect to remote device by a hardware address¶
- 
-ble.connect_by_device_address("AA:AA:AA:AA:AA:11")
- 
-#Discover device services and characteristics
-ble.discover_services()
+
